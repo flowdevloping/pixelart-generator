@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins';
+}
+
+h1 {
+    text-align: center;
+    margin:0px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:64px;
+    margin-bottom:64px;
+}
+
+.container {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(244, 244, 244, 0);
+    border-radius: 0px;
+    padding: 32px;
+    gap: 16px; 
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    resize: both;
+    overflow: auto;
+}
+
+.pxl_container {
+    --size: 4;
+    height: 75vw;
+    width: 75vw;
+    display: grid;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    padding: 3px;
+    resize: both;
+    overflow: auto;
+}
+
+.pixel{
+    background-color: rgb(255, 255, 255);
+    border: solid 0.1px;
+} 
+
+.pxl_settings {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width:100%
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.btn {
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+button {
+    -webkit-appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: rgb(40, 40, 40);
+    color:white;
+    border: 0.0625rem rgba(255, 255, 255, 0);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0.0625rem 0.25rem;
+    cursor: pointer;
+    width: fit-content;
+    transition: 0.2s;
+    padding: 1.1rem 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(109, 109, 109);
+    transition: 0.2s ease;
+}
+
+input[type='color'] {
+    -webkit-appearance: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    background-color: rgb(40, 40, 40);
+    color:white;
+    border: 0.0625rem rgba(255, 255, 255, 0);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0.0625rem 0.25rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 0rem;
+  }
+
+
+
+
