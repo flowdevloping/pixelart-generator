@@ -3,6 +3,7 @@
 <div align="center">
   <img src="https://github.com/flowdevloping/pixelart-generator/blob/master/PixelArtCreator.png" alt="Pixelart Grid Example" width="500" />
 </div>
+</br>
 A simple web-based Pixel Art Generator that allows users to create pixel grids, draw pixel art, and save the artwork as a PNG image.
 
 ## Features
