@@ -1,6 +1,6 @@
 # Pixel Art Generator
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/flowdeveloping/pixelart-generator/blob/[branch]/PixelArtCreator.png?raw=true)
 
 
 A simple web-based Pixel Art Generator that allows users to create pixel grids, draw pixel art, and save the artwork as a PNG image.
