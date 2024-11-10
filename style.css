@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins';
+    background-color: #0D0B11;
+    color:white;
 }
 
 h1 {
@@ -19,15 +21,15 @@ section {
     position: relative;
     display:flex;
     flex-direction: column;
-    background-color: rgba(244, 244, 244, 0);
-    border-radius: 0px;
-    padding: 32px;
+    background-color: #1F1F1F;
+    border-radius: 0.25rem;
+    padding: 2rem;
     gap: 16px; 
     align-items: center;
     justify-content: center;
-    border: solid 1px;
     resize: both;
     overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .pxl_container {
@@ -37,9 +39,10 @@ section {
     display: grid;
     grid-template-columns: repeat(var(--size), 1fr);
     grid-template-rows: repeat(var(--size), 1fr);
-    padding: 3px;
     resize: both;
     overflow: auto;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .pixel{
@@ -62,14 +65,6 @@ section {
     height: 40px;
 }
 
-.btn {
-    height: 40px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-
 button {
     -webkit-appearance: none;
     display: flex;
@@ -77,14 +72,15 @@ button {
     align-items: center;
     padding: 1rem;
     border-radius: 0.25rem;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(45, 45, 45);
     color:white;
     border: 0.0625rem rgba(255, 255, 255, 0);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 0.0625rem 0.25rem;
     cursor: pointer;
     width: fit-content;
     transition: 0.2s;
-    padding: 1.1rem 1.2rem;
+    height: 40px;
+
 }
 
 button:hover {
@@ -98,12 +94,19 @@ input[type='color'] {
     justify-content: center;
     align-items: center;
     border-radius: 0.25rem;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(45, 45, 45);
     color:white;
     border: 0.0625rem rgba(255, 255, 255, 0);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 0.0625rem 0.25rem;
     cursor: pointer;
     transition: 0.2s;
+    padding:0.5rem 0.75rem;
+    height: 40px;;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 0.25rem;
 }
 
 /* Scrollbar */
@@ -111,6 +114,12 @@ input[type='color'] {
     width: 0rem;
   }
 
+.flex {
+display: flex;
+align-items: center;
+}
 
-
+.info {
+    margin-left: auto;
+}
 
